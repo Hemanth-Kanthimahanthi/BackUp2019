@@ -1,0 +1,37 @@
+
+
+/*
+
+		Scenerio@2
+
+*/
+
+
+
+
+
+abstract class S
+{
+	public static void take()
+	{
+		System.out.println("Take a deep breathe");
+	}
+	public static void care()
+	{
+		System.out.println("Care ......");
+	}
+	public static void SD()
+	{
+		System.out.println("SWEAT DREAMS.....");
+	}
+}
+class Sample
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+		S.take();
+		S.care();
+		S.SD();
+	}
+}

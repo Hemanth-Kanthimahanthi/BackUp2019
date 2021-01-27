@@ -1,0 +1,33 @@
+/*write a program to create  a)static variable & Non static variable b)static method & Non static method c)main method
+Acess Static Variable inside Static method
+Acess Non Static Variable inside Non Static method
+Acess Static Variable & Non Static method in main METHOD
+*/
+
+
+
+
+
+
+class Run1
+{
+	public static double add(double a,double b)
+	{
+		static double k=a+b;
+	}
+	public int sub(int c,int d)
+	{
+		 int j=c-d;
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+		add(1.2,3.2);
+		System.out.println(k);
+		Run1 obj=new Run1();
+		obj.sub(3,2);
+		System.out.println(obj.j);
+
+	}
+}
+

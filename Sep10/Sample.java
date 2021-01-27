@@ -1,0 +1,28 @@
+/*write a program to create three methods a)Static method b)Non static method c)main method
+create Local variable in Static and Non static method and print it , Call both methods from main method*/
+
+
+
+
+
+
+class Sample 
+{
+	public static void test()
+	{
+		double k=2.8;
+		System.out.println(k);
+	}
+	public void create()
+	{
+		int j=1;
+		System.out.println(j);
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+		test();
+		Sample O1=new Sample();
+		O1.create ();
+	}
+}

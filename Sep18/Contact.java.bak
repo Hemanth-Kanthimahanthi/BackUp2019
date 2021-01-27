@@ -1,0 +1,28 @@
+/*
+	CLASS 
+			&
+				OBJECT
+*/
+
+
+
+
+class Add
+{
+	String name="Sri Charan";
+	int Mno=243535;
+	public void contact()
+	{
+		System.out.println(name);
+		System.out.println(Mno);
+	}
+}
+class Save
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+		Add C=new Add();
+		C.contact();
+	}
+}

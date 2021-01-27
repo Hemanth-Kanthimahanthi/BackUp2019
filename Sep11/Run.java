@@ -1,0 +1,43 @@
+/*when Global variable is not given any values
+then compiler will initialise the values
+This will worthful for only Global variables but not local variables
+*/
+
+
+
+
+class Run 
+{
+	static String a;
+	static char b;
+	static int c;
+	static double d;
+	static boolean e;
+	static byte f;
+	static short g;
+	static float h;
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println(d);
+		System.out.println(e);
+		System.out.println(f);
+		System.out.println(g);
+		System.out.println(h);
+	}
+}
+
+
+/*Initial values of below data types are
+String=null
+char=NO CHARACTER
+ int=0
+ double=0.0
+boolean=false
+byte =0
+short =0
+float=0.0
+*/

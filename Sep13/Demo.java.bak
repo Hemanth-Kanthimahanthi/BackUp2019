@@ -1,0 +1,33 @@
+/* Write a program for the below requirements
+a)Static variable & Non Static variable
+b)Static method & Non Static Method
+c)Main method
+d)Create Local variable within main method & print it.
+Access Static variable within Static method.
+Access Non Static variable within Non Static method
+Call both the methods from main method
+Draw the Execution diagram
+*/
+
+
+
+
+class Demo
+{
+	static char ch='S';
+	public static void pool()
+	{
+		System.out.println(ch);
+	}
+	public void swim()
+	{
+		System.out.println(ch);
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+		pool();
+		Test a1=new Test();
+		a1.swim();
+	}
+}

@@ -1,0 +1,19 @@
+class Test
+{
+	public static void climb()
+	{
+		System.out.println("Climb a Hill to the top.");
+	}
+	public void see()
+	{
+		System.out.println('&');
+		System.out.println("See the view from the top");
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+		climb();
+		Test t1=new Test();
+		t1.see();
+	}
+}

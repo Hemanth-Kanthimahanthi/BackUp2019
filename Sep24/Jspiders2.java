@@ -1,0 +1,65 @@
+/*
+Write a program for a student
+Student characterstics are
+1.Id 2.Name 3.10th % 4.Inter %
+5.Degree% 6.Masters%
+create a method to display student details
+Note: Some students are Degree holders
+      Some students are Master Degree holders
+Students are available in J spiders
+Create a 1 Degree holder student, 1 Master degree holder student and Display them 
+*/
+
+
+class Student2
+{
+	String I;
+	String J;
+	double x;
+	double y;
+	double z;
+	double k;
+	public Student2(String I,String J,double x,double y,double z)
+	{
+		this.I=I;
+		this.J=J;
+		this.x=x;
+		this.y=y;
+		this.z=z;
+	}
+	public Student2(String I,String J,double x,double y,double z,double k)
+	{
+		this.I=I;
+		this.J=J;
+		this.x=x;
+		this.y=y;
+		this.z=z;
+		this.k=k;
+	}
+	public void Details2()
+	{
+		System.out.println("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
+		System.out.println("ID      :"+this.I);
+		System.out.println("Name    :"+this.J);
+		System.out.println("10th    :"+this.x);
+		System.out.println("Inter   :"+this.y);
+		System.out.println("Degree  :"+this.z);
+		if(k!=0.0)
+		{
+		System.out.println("Masters :"+this.k);
+		}
+		System.out.println("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
+	}
+}
+class Jspiders2
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Main starts....");
+		Student2 P=new Student2("14H71A0263","Bobby",78.87,80.08,67.76);
+		Student2 Q=new Student2("14H71A0280","Lilly",97.97,94.94,85.85,80.80);
+		P.Details2();
+		Q.Details2();
+		System.out.println("Main Ends....");
+	}
+}
